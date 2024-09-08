@@ -9,11 +9,12 @@ import SoilTesting from './components/SoilTesting';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HybridSeed from './components/HybridSeed';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/soil-types" element={<SoilTypes />} />

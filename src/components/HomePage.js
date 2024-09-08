@@ -13,7 +13,7 @@ const HomePage = () => {
             {/* Overlay Container */}
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40">
                 <div className="text-center text-white ">
-                    <div className='mb-44'>
+                    <div className='mb-28'>
                         <h1 className="text-5xl font-bold mb-8">Welcome to Our Platform</h1>
                         <p className="text-2xl">
                             Discover soil types, fertilizers, hybrid seeds, and more to help you make the best decisions for your crops.
