@@ -42,3 +42,18 @@ React
 ---->Important Notice
 Disclaimer: The recommendations provided by this website are based on general agricultural practices and are intended to assist farmers in making informed decisions. However, farming conditions can vary greatly based on numerous factors, including soil composition, weather, and crop type. It is strongly advised that farmers consult with qualified agricultural experts before implementing any suggestions from this platform to ensure the best outcomes.
 
+
+
+# Farmer's Guide
+
+## Disclaimer ⚠️
+
+> **Warning:**  
+> This project contains **dummy data** for demonstration and testing purposes only.  
+> The information presented on this website is not intended for real farming decisions.  
+> Please refrain from using any data for actual agricultural practices or decision-making.
+
+## Project Overview
+Farmer's Guide is a web platform aimed at helping farmers with various resources and tools. This project is currently in development and contains only placeholder content.
+
+...
