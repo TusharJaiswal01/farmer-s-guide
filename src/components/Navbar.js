@@ -44,7 +44,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Navbar Links for Large Screens */}
         <div className={`hidden md:flex md:w-auto md:order-1 mt-0 ${isOpen ? "block" : "hidden"}`} id="navbar-sticky">
           <ul className="flex flex-col p-0 md:p-0 mt-0 font-medium bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {navItems.map((item, index) => (
@@ -60,7 +59,6 @@ export default function Navbar() {
           </ul>
         </div>
 
-        {/* Navbar Links for Small Screens */}
         <div className={`fixed inset-0 z-20 flex flex-col items-center justify-start bg-[#479d4f] dark:bg-gray-900 md:hidden ${isOpen ? "block" : "hidden"}`}>
           <button
             onClick={toggleMenu}

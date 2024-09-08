@@ -261,7 +261,7 @@ function Fertilizers() {
     const [soilTypes, setSoilTypes] = useState(mockSoilTypes);
     const [cropTypes, setCropTypes] = useState(mockCropTypes);
 
-    // Apply filters when soilType or cropType changes
+
     useEffect(() => {
         const applyFilters = () => {
             const filtered = fertilizers.filter(fertilizer => {
@@ -308,7 +308,6 @@ function Fertilizers() {
                 </div>
             </div>
 
-            {/* Display Fertilizers */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredFertilizers.length === 0 ? (
                     <p>No fertilizers found for the selected criteria.</p>

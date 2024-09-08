@@ -158,7 +158,7 @@ function HybridSeed() {
     }, []);
 
     useEffect(() => {
-        // Mock hybrid seeds data
+
         const mockHybridSeeds = Array.from({ length: 50 }, (_, index) => ({
             name: `Hybrid Seed ${index + 1}`,
             description: `High-performance hybrid seed suitable for different conditions. Seed number ${index + 1}.`,
@@ -172,7 +172,7 @@ function HybridSeed() {
     }, []);
 
     useEffect(() => {
-        // Apply filter to hybrid seeds
+
         const applyFilters = () => {
             const filtered = hybridSeeds.filter(seed => {
                 // Condition 1: Seed matches either soil type or crop type (partial match allowed)
@@ -180,7 +180,7 @@ function HybridSeed() {
                     (!cropType || seed.cropType === cropType);
             });
 
-            // Condition 2: If no filtered result matches the selection, return random hybrid seeds
+
             if (filtered.length === 0) {
                 const randomSeeds = hybridSeeds.sort(() => 0.5 - Math.random()).slice(0, 5); // Random 5 seeds
                 setFilteredHybridSeeds(randomSeeds);
@@ -229,7 +229,6 @@ function HybridSeed() {
             {/* Error Handling */}
             {error && <p className="text-red-500 mb-4">{error}</p>}
 
-            {/* Display Hybrid Seeds */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredHybridSeeds.length === 0 ? (
                     <p>No hybrid seeds found for the selected criteria.</p>

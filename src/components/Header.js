@@ -15,7 +15,7 @@ function Header() {
             <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-2xl font-bold">Farmer's Guide</h1>
 
-                {/* Hamburger Icon for Small Screens */}
+
                 <button
                     onClick={toggleMenu}
                     className="block md:hidden p-2 focus:outline-none"
@@ -27,7 +27,6 @@ function Header() {
                     )}
                 </button>
 
-                {/* Navigation Links */}
                 <nav className={`md:flex space-x-4 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
                     <Link to="/" className="block mt-2 md:mt-0 hover:text-yellow-300">Home</Link>
                     <Link to="/soil-types" className="block mt-2 md:mt-0 hover:text-yellow-300">Soil Types</Link>
