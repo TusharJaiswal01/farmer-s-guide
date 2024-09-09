@@ -9,12 +9,12 @@ export default function Navbar() {
 
   // Array of nav items with their corresponding paths
   const navItems = [
-    { name: 'Home', path: 'http://localhost:3011/home' },
-    { name: 'Disease Detection & Farm Intrusion', path: 'http://localhost:3011/disease-detection' },
-    { name: 'Planner', path: 'http://localhost:3011/planner' },
-    { name: 'Farmer\'s Guide', path: 'http://localhost:3011/farmers-guide' },
-    { name: 'Community', path: 'http://localhost:3011/forum' },
-    { name: 'Online Bidding', path: 'http://localhost:3011/weather-app' }
+    { name: 'Home', path: 'https://farm-tech-support.vercel.app/' },
+    { name: 'Disease Detection & Farm Intrusion', path: 'https://crop-disease-detection-and-farm-itrusion.vercel.app/' },
+
+    { name: 'Farmer\'s Guide', path: 'https://farmer-s-guide.vercel.app/' },
+    { name: 'Community', path: 'https://farmer-eight.vercel.app/' },
+
   ];
 
   return (
